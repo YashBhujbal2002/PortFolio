@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio WebSite</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
+  </style>
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+        height: 100vh;
+        /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2) ), url('./IMG_20230125_133950.jpg'); */
+        /*  */
+
+        object-fit:cover;
+        font-family: sans-serif;
+        background-repeat: no-repeat;
+        background-size:cover;
+        /* background-color:#006bb3; */
+        background-color: #004d80;
+    }
+    nav {
+      width: 100;
+      height: 100px;
+      padding-top: 20px;
+      /* margin-top: 20px; */
+      margin-left: 100px;
+      background-color: #003366;
+      color: aqua;
+      /* display:; */
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .menu1 a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 50px;
+      font-size: 20px;
+      position: relative;
+    }
+    .menu1 a:before {
+      content: "";
+      position: absolute;
+      width: 0%;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      border-bottom: 2px solid rgb(187, 189, 169);
+      transition: 0.4s linear;
+    }
+
+    .menu1 a:hover:before {
+      width: 90%;
+    }
+
+    .sec {
+      /* max-width: 650px; */
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: white;
+    }
+
+    .sec span {
+      letter-spacing: 5px;
+      font-size: 4em;
+    }
+    .sec h2 {
+      font-size: 4em;
+      /* font-style: normal; */
+    }
+    .sec h4 {
+      font-size: 3em;
+    }
+    .sec1 {
+      background-color: #007acc;
+    }
+    
+    .card {
+        margin-left: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 20px;
+        border-width: 10px;
+        background-color: #007acc;
+    }
+    .card-body .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      align-items: center;
+      margin-top:1rem;
+    }
+
+    /* .sec2{
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: white;
+    } */
+  </style>
+
+  <body>
+    <header>
+        <div>
+            <div>
+                <nav class="a1">
+                <div class="menu1">
+                    <ul>
+                    <a href="#project">Project</a>
+                    <a href="#about">About</a>
+                    <a href="https://drive.google.com/file/d/13XW4JGkVK2psaS-J-E-N01dbwOBwT-6b/view?usp=share_link">Resume</a>
+                    <a href="#" style="margin-left: 400px">Github</a>
+                    <a
+                        href="https://www.linkedin.com/in/yash-bhujbal-1878a7232/"
+                        style="padding: 10px 50px"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                    </ul>
+                </div>
+                </nav>
+            </div>
+            <div>
+                <img style="height: 300px;margin-left: 1100px; margin-top: 80px; 
+                background-blend-mode:color-burn;
+                border-radius: 50px;" 
+                src="./IMG_20230125_133950.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="sec1">
+            <section>
+                <!-- <span>
+                    <img src="./IMG_20230125_133950.jpg" alt="">
+                </span> -->
+            </section>
+            <section class="sec">
+                
+                <span style="font-family: 'Roboto Slab', serif">Hi! </span>
+                    <!-- <span>
+                    <img style="width: fit-content;"  src="./IMG_20230125_133950.jpg" alt="">
+                </span> -->
+                <h2 style="font-family: 'Roboto Slab', serif">I'm Yash</h2>
+                <br />
+                <h4 style="font-family: 'Roboto Slab', serif">
+                    Developer / Coder / Problem Solver
+                </h4>
+                <p style="font-family: 'Roboto Slab', serif">
+                    I love spending hours and hours to building things, solving problems
+                    and learning new technologies.
+                </p>
+                <p style="font-family: 'Roboto Slab', serif">
+                    Self motivated keen learner open for opportunities
+                </p>
+                <!-- <div>
+                    <img src="/IMG_20230125_133950.jpg" alt="">
+                </div> -->
+            </section>
+        </div>
+    </header>
+
+    <div>
+        <section id="project" , class="sec1">
+            <h2 style="padding-left: 100px; color: white; font-size: 30px">
+            Project
+            </h2>
+
+            <div style="display: flex;justify-content: space-evenly;width: 80%;">
+
+            <div class="card" style="width: 18rem">
+                <img
+                    src="./youtube Logo PNG Vector (SVG) Free Download.png"
+                    alt="MyTube"
+                    width="200"
+                    height="150"
+                    style="padding-left: 80px; padding-top: 20px"
+                />
+                <div class="card-body">
+                    <div>
+                    <h5 class="My-Tube" style="margin-left: 70px">My-Tube</h5>
+                    <p class="card-text" style="text-align: center">
+                        It is a web application which display various videos, their
+                        categories and channels also has the feature of playing the
+                        videos.
+                    </p>
+                    </div>
+                    <div class="button">
+                    <a href="https://my-tube-kappa.vercel.app/" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="card" style="width: 18rem; margin-left: 150px;">
+                <img
+                src="./youtube Logo PNG Vector (SVG) Free Download.png"
+                alt="MyTube"
+                width="200"
+                height="150"
+                style="padding-left: 80px; padding-top: 20px"
+                />
+                <div class="card-body">
+                    <div>
+                        <h5 class="My-Tube" style="margin-left: 70px">My-Tube</h5>
+                        <p class="card-text" style="text-align: center">
+                        It is a web application which display various videos, their
+                        categories and channels also has the feature of playing the
+                        videos.
+                        </p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+        </section>
+    </div>
+
+    <div>
+        <section id="about" , class="sec1">
+            <h2 style="padding-left: 100px; color: white; font-size: 30px">
+                About
+            </h2>
+            <div class="info" style="width:75%; margin:30px auto ;">
+                <p style="color:black; text-align: center; font-size: 20px;">
+                    I'm Yash Bhujbal. Undergratuate student pursuing Bachelor of Engineering
+                    degree in Computer Engineering course in Pune Institute of Computer Technology. I  
+                    like to solve problems on various coding platforms like GFG, leetcode. 
+                    I am very good at coding and Computer Science fundamentals. I do coding in various 
+                    languages like python, c++, java, javascript. Apart from coding i'm very good at 
+                    Web Develpoment using React JS, Node JS.
+                    
+                </p>
+            </div>
+            
+        </section>
+    </div>
+  </body>
+</html>
